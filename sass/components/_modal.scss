@@ -23,8 +23,6 @@
 }
 
 .modal {
-  min-width: 528px;
-  min-height: 581px;
   background-color: #fff;
 
   position: absolute;
@@ -44,6 +42,11 @@
 
   @media screen and (max-width: 850px) and (orientation: landscape) {
     top: 90%;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 528px;
+    min-height: 581px;
   }
 }
 
