@@ -1,0 +1,31 @@
+.section {
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.section__title {
+  font-weight: bold;
+  font-size: $title-font-size;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 30px;
+}
+
+.section__bg {
+  background-color: $additional-bg-color;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+@media screen and (min-width: 1200px) {
+  .section,
+  .section__bg {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  .section__no-padding {
+    padding-bottom: 0px;
+  }
+}

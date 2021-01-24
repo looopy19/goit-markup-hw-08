@@ -1,0 +1,104 @@
+.dec-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  background-color: $additional-bg-color;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.about-list__subtitle {
+  font-size: $main-font-size;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.about-list__description {
+  color: $secondary-text-color;
+  font-style: normal;
+  font-weight: 400;
+  font-size: $main-font-size;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.about-list__item {
+  margin-bottom: 30px;
+
+  &:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+
+  .about-list__item {
+    height: 251px;
+    margin: 15px;
+    width: calc((100% - 2 * 30px) / 2);
+
+    &:nth-last-child(-n + 2) {
+      margin-bottom: 0px;
+    }
+  }
+  .about-list__subtitle {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about-list__item {
+    width: calc((100% - 4 * 30px) / 4);
+    height: 251px;
+  }
+}
+//   .dec-element {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     width: 270px;
+//     height: 120px;
+//     background-color: $additional-bg-color;
+//     border-radius: 4px;
+//     margin-bottom: 30px;
+//   }
+
+//   .about-list__subtitle {
+//     font-size: $main-font-size;
+//     font-style: normal;
+//     font-weight: bold;
+//     line-height: 16px;
+//     letter-spacing: 0.03em;
+//     text-transform: uppercase;
+//     margin-bottom: 10px;
+//   }
+
+//   .about-list__description {
+//     color: $secondary-text-color;
+//     font-style: normal;
+//     font-weight: 400;
+//     line-height: 24px;
+//     letter-spacing: 0.03em;
+//     text-align: left;
+//   }
+
+//   .about-list__item {
+//     margin-left: 30px;
+
+//     &:nth-child(1) {
+//       margin-left: 0px;
+//     }
+//   }

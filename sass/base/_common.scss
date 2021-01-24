@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

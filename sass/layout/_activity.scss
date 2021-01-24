@@ -1,0 +1,44 @@
+@media screen and (min-width: 320px) and (max-width: 1199px) {
+  .activity-wrapper {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .activity-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .activity-list__image {
+    display: block;
+  }
+
+  .activity-list__thumb {
+    position: relative;
+  }
+
+  .activity-list__overlay {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0px;
+    bottom: 0px;
+
+    width: 100%;
+    min-height: 70px;
+
+    background: rgba(47, 48, 58, 0.8);
+  }
+
+  .activity-list__subtitle {
+    font-size: $main-font-size;
+    font-weight: bold;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $additional-white-color;
+    margin: 0px;
+  }
+}

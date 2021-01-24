@@ -1,0 +1,21 @@
+.logo {
+  color: $additional-black-color;
+  font-family: $secondary-font;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+
+  animation-duration: 1000ms;
+
+  &__part {
+    color: $accent-color;
+  }
+  &--footer {
+    display: block;
+    color: $additional-white-color;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
