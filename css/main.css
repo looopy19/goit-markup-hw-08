@@ -367,6 +367,7 @@ img {
     line-height: 1.167;
     letter-spacing: 0.02em;
     padding: 60px 0px;
+    z-index: 1;
   }
   .menu-container.is-open {
     display: block;
