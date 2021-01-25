@@ -40,7 +40,7 @@
 
   @media screen and (max-width: 800px) {
     max-width: 450px;
-    max-height: 609px;
+    min-height: 609px;
   }
 
   @media screen and (max-width: 1020px) and (min-width: 550px) and (orientation: landscape) {
