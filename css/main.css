@@ -502,9 +502,8 @@ img {
 
 .modal {
   background-color: #fff;
-  max-width: 528px;
-  max-height: 581px;
-  width: 100%;
+  width: 450px;
+  min-height: 609px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -519,16 +518,16 @@ img {
   }
 }
 
-@media screen and (max-width: 800px) {
-  .modal {
-    max-width: 450px;
-    min-height: 609px;
+@media screen and (max-width: 479px) {
+  .modal .modal {
+    width: 100%;
   }
 }
 
-@media screen and (max-width: 1020px) and (min-width: 550px) and (orientation: landscape) {
-  .modal {
-    top: 90%;
+@media screen and (min-width: 1200px) {
+  .modal .modal {
+    width: 528px;
+    min-height: 581px;
   }
 }
 
